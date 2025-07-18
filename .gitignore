@@ -1,0 +1,52 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Composer vendor directory
+/vendor/
+composer.lock
+
+# Node modules (if using Node.js tools)
+node_modules/
+
+# Environment file (CI4)
+.env
+
+# Environment-specific config (CI3 custom setups)
+application/config/development/
+application/config/testing/
+application/config/production/
+
+# Cache & Logs
+writable/cache/
+writable/logs/
+application/cache/
+application/logs/
+
+# Session files
+application/sessions/
+writable/session/
+
+# Uploads (optional - only if you don't want to version uploaded files)
+public/uploads/
+assets/uploads/
+
+# IDE & OS specific files
+*.sublime-workspace
+*.sublime-project
+.idea/
+.vscode/
+
+# Build artifacts
+/build/
+dist/
+*.log
+
+# PHPUnit / testing output
+phpunit.xml
+phpunit.xml.dist
+coverage/
+
+# Docker config (optional, if you use Docker)
+docker-compose.override.yml
+.env.docker

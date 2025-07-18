@@ -1,0 +1,45 @@
+services:
+  web:
+    build: 
+      context: .
+      dockerfile: php.dockerfile
+    container_name: php_cont
+    ports:
+      - 8080:80
+    volumes:
+      - .:/var/www/html/
+    depends_on:
+      mysqldb:
+        condition: service_healthy
+  
+  mysqldb:
+    image: mysql:5.7
+    restart: always
+    container_name: mysql_cont
+    environment:
+      - MYSQL_ROOT_PASSWORD=hwr
+      - MYSQL_USER=waqas
+      - MYSQL_PASSWORD=waqaspass
+      - MYSQL_DATABASE=najamtraders_records
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - db_data:/var/lib/mysql
+  
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    container_name: phpmyadmin_cont
+    ports:
+      - 8081:80
+    environment:
+      - PMA_HOST=mysqldb
+      - PMA_PORT=3306
+      - MYSQL_ROOT_PASSWORD=hwr
+    depends_on:
+      - mysqldb
+volumes:
+  db_data:
