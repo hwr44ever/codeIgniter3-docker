@@ -1,8 +1,6 @@
 services:
   web:
-    build: 
-      context: .
-      dockerfile: php.dockerfile
+    image: hwr44ever/najam-web
     container_name: php_cont
     ports:
       - 8080:80
