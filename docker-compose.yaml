@@ -1,13 +1,13 @@
 services:
   web:
-    build: 
+    build:
       context: .
       dockerfile: php.dockerfile
     container_name: php_cont
     ports:
       - 8080:80
     volumes:
-      - .:/var/www/html/
+      - ./:/var/www/html/
     depends_on:
       mysqldb:
         condition: service_healthy
