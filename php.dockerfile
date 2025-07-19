@@ -17,6 +17,7 @@ RUN mkdir -p /var/lib/php/session && chmod -R 777 /var/lib/php/session
 
 
 
+
 # Copy Apache config
 #COPY 000-default.conf /etc/apache2/sites-available/000-default.conf
 
