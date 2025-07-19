@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
         <link rel="stylesheet" href="<?php echo base_url(SITETHEME . 'myAssests') ?>/style.css">
     </head>
-    <body style="background-image: url('<?php echo base_url('theme/vertical-dark/'); ?>assets/images/najam');">
+   <!-- <body style="background-image: url('<?php echo base_url('theme/vertical-dark/'); ?>assets/images/najam');">
         <div class="page-content">
             <div class="container-fluid">
                 <div class="row">
