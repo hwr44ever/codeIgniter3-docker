@@ -1,6 +1,6 @@
 services:
   web:
-    build: 
+    build:
       context: .
       dockerfile: php.dockerfile
     container_name: php_cont
