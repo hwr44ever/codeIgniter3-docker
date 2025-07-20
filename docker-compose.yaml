@@ -1,9 +1,9 @@
 services:
   web:
-    #image: hwr44ever/codeigniter3-najam
-    build:
-      context: .
-      dockerfile: php.dockerfile
+    image: hwr44ever/codeigniter3-najam
+    #build:
+     # context: .
+      #dockerfile: php.dockerfile
     container_name: php_cont
     ports:
       - 8080:80
