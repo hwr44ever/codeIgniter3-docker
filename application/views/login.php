@@ -47,14 +47,14 @@
 
 
         <!-- jQuery  -->
-       <!-- <script src="<?php echo base_url('theme/vertical-dark/'); ?>assets/js/jquery.min.js"></script>
+        <script src="<?php echo base_url('theme/vertical-dark/'); ?>assets/js/jquery.min.js"></script>
         <script src="<?php echo base_url('theme/vertical-dark/'); ?>assets/js/bootstrap.bundle.min.js"></script>
         <script src="<?php echo base_url('theme/vertical-dark/'); ?>assets/js/metismenu.min.js"></script>
         <script src="<?php echo base_url('theme/vertical-dark/'); ?>assets/js/waves.js"></script>
         <script src="<?php echo base_url('theme/vertical-dark/'); ?>assets/js/simplebar.min.js"></script>
 
         <!-- App js -->
-        <!--<script src="<?php echo base_url('theme/vertical-dark/'); ?>assets/js/theme.js"></script>
+        <script src="<?php echo base_url('theme/vertical-dark/'); ?>assets/js/theme.js"></script>
         <script type="text/javascript">
 
             $(document).ready(function () {
@@ -99,9 +99,9 @@
                 });
 
             });
-        </script> -->
+        </script>
 
-        <h1>Muhammad Waqas</h1>
+        <!--<h1>Muhammad Waqas</h1> -->
 
     </body>
 </html>
