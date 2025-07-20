@@ -22,6 +22,8 @@ services:
       - MYSQL_USER=waqas
       - MYSQL_PASSWORD=waqaspass
       - MYSQL_DATABASE=najamtraders_records
+    command: --default-authentication-plugin=mysql_native_password
+
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
       interval: 5s
