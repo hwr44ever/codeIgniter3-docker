@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
         <link rel="stylesheet" href="<?php echo base_url(SITETHEME . 'myAssests') ?>/style.css">
     </head>
-   <body style="background-image: url('<?php echo base_url('theme/vertical-dark/'); ?>assets/images/najam-logo.png');">
+   <<body style="background-image: url('<?php echo base_url('theme/vertical-dark/'); ?>assets/images/najam-logo.png');">
         <div class="page-content">
             <div class="container-fluid">
                 <div class="row">
@@ -47,14 +47,14 @@
 
 
         <!-- jQuery  -->
-        <script src="<?php echo base_url('theme/vertical-dark/'); ?>assets/js/jquery.min.js"></script>
+       <!-- <script src="<?php echo base_url('theme/vertical-dark/'); ?>assets/js/jquery.min.js"></script>
         <script src="<?php echo base_url('theme/vertical-dark/'); ?>assets/js/bootstrap.bundle.min.js"></script>
         <script src="<?php echo base_url('theme/vertical-dark/'); ?>assets/js/metismenu.min.js"></script>
         <script src="<?php echo base_url('theme/vertical-dark/'); ?>assets/js/waves.js"></script>
         <script src="<?php echo base_url('theme/vertical-dark/'); ?>assets/js/simplebar.min.js"></script>
 
         <!-- App js -->
-        <script src="<?php echo base_url('theme/vertical-dark/'); ?>assets/js/theme.js"></script>
+        <!--<script src="<?php echo base_url('theme/vertical-dark/'); ?>assets/js/theme.js"></script>
         <script type="text/javascript">
 
             $(document).ready(function () {
@@ -99,9 +99,9 @@
                 });
 
             });
-        </script>
+        </script> -->
 
-
+        <h1>Muhammad Waqas</h1>
 
     </body>
 </html>
