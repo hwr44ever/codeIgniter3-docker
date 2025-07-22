@@ -101,7 +101,6 @@
             });
         </script>
 
-        <h1>Muhammad Waqas and Adan Waqas</h1>
 
     </body>
 </html>
