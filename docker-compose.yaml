@@ -1,6 +1,6 @@
 services:
   web:
-    image: hwr44ever/codeigniter3-najam
+    image: hwr44ever/php-image
     #build:
      # context: .
       #dockerfile: php.dockerfile
