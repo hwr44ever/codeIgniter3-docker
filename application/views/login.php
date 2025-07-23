@@ -17,7 +17,7 @@
                                 <form class="needs-validation" name="add_item_form" id="add_item_form" novalidate>
                                     <div class="form-row">
                                         <div class="col-md-12 mb-3">
-                                            <label for="validationCustom03">Email</label>
+                                            <label for="validationCustom03">Email:</label>
                                             <input type="email" id="user_email" name="user_email" placeholder="Email Address Here" required>
                                             <div class="invalid-feedback">
                                                 Please Enter Item Name.
@@ -26,7 +26,7 @@
                                     </div>
                                     <div class="form-row">
                                         <div class="col-md-12 mb-3">
-                                            <label for="validationCustom03">Password</label>
+                                            <label for="validationCustom03">Password:</label>
                                             <input type="password" id="password" name="password" placeholder="Enter your password" required>
                                             <div class="invalid-feedback">
                                                 Please Enter Item Name.
